@@ -1,0 +1,290 @@
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:02:13 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:02:37 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:02 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:04 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:05 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:06 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:07 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:08 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28023): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:10 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Target WSGI script '/home/gsl/financeproject/financeproject/wsgi.py' cannot be loaded as Python module.
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121] mod_wsgi (pid=28022): Exception occurred processing WSGI script '/home/gsl/financeproject/financeproject/wsgi.py'.
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121] Traceback (most recent call last):
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]   File "/home/gsl/financeproject/financeproject/wsgi.py", line 16, in <module>
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]     application = get_wsgi_application()
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]     django.setup()
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]     self._setup(name)
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]     self._wrapped = Settings(settings_module)
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121]     % (self.SETTINGS_MODULE, e)
+[Sat Mar 21 20:12:11 2015] [error] [client 123.157.213.121] ImportError: Could not import settings 'financeproject.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named financeproject.settings
+[Sat Mar 21 20:15:02 2015] [error] [client 123.157.213.121] client denied by server configuration: /home/gsl/financeproject/financeproject/static, referer: http://123.57.69.156:8080/admin/login/?next=/admin/
+[Sat Mar 21 20:15:02 2015] [error] [client 123.157.213.121] client denied by server configuration: /home/gsl/financeproject/financeproject/static, referer: http://123.57.69.156:8080/admin/login/?next=/admin/
